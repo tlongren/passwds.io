@@ -1,0 +1,234 @@
+div.notComplete {
+  display:none;
+}
+
+/*-------------------------
+    General Styles
+--------------------------*/
+
+body{
+    font-family : Arial, sans-serif;
+    width: 100%;
+    padding-top: 150px;
+}
+
+a{
+    color :#428bca !important;
+}
+
+
+/*-----------------------------------
+    Navigation Bar Styles
+------------------------------------*/
+
+.navbar{
+    padding: 45px 0;
+    background-color:#fff;
+    transition:padding 0.4s;
+}
+
+
+/* Contract the navbar while scrolling */
+
+.navbar.scrolled{
+    box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+    padding: 16px 0;
+}
+
+#myNavbar{
+    overflow-x: hidden;
+}
+
+#myNavbar ul li:last-child a{
+    padding-right: 0;
+}
+
+/* Brand name */
+
+.brandStyle{
+    color: #428bca !important;
+    font-family : Cabin, sans-serif;
+    font-size: 24px;
+}
+
+/* Menu */
+
+.menustyle{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/*-----------------------------------
+    Main Picture
+------------------------------------*/
+
+
+
+/*-----------------------------------
+        Text
+------------------------------------*/
+
+/* Titles */
+
+h1{
+    color: #5a5b5b;
+    font-size:24px;
+    font-weight: bold;
+    margin-top: 150px;
+    font-family : Cabin, sans-serif;
+}
+
+/* Paragraphs */
+
+.textStyle{
+    color: #989999;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    max-width: 700px;
+    margin: 80px auto 0 auto;
+}
+
+.textStyle a{
+    text-decoration:underline;
+}
+
+.textStyle a:hover{
+    text-decoration: none;
+}
+
+
+/*-----------------------------------
+    Latest Projects
+------------------------------------*/
+
+/* Container */
+
+
+.latestProjects{
+  max-width: 900px;
+    margin : 80px auto 0 auto;
+
+}
+
+.latestProjects p{
+    font-size: 16px;
+    color: #757879;
+    width: 260px;
+    text-align: left;
+    margin: 13px auto 60px auto;
+}
+
+.latestProjects p a{
+    font-size: 12px;
+    display: block;
+    width: 80px;
+    white-space: nowrap;
+    margin-top: 6px;
+}
+
+.latestProjects img{
+    width:260px;
+}
+
+
+/*-----------------------------------
+        Footer
+------------------------------------*/
+
+.footer{
+    padding: 13px 0px 0px 0px;
+    border-top: 1px solid #e5e5e5;
+    color: #757879;
+    font-size: 12px;
+    margin:70px auto;
+}
+
+/*-----------------------------------
+    Helper classes
+------------------------------------*/
+
+.noPadding{
+    padding:0;
+}
+
+.noBorder{
+    border: 0;
+}
+
+
+/*-----------------------------------
+    Media querries
+------------------------------------*/
+
+/* On smaller screens */
+
+@media (max-width: 992px) {
+
+    /* General */
+
+    body{
+        padding-top: 76px;
+    }
+
+    li{
+        padding-left:8px;
+    }
+
+    h1 {
+        margin-top: 80px;
+    }
+
+    /* Navigation bar */
+
+    .navbar{
+        padding: 16px 0;
+    }
+
+    /* Main picture */
+
+    .headpicture{
+        height: 250px;
+    }
+
+    /* Latest Projects */
+
+    .textStyle{
+        margin-top: 40px;
+    }
+
+    .titleStyle{
+        margin-top: 70px;
+    }
+
+    /* Footer */
+
+    .footer{
+        margin: 40px auto;
+    }
+
+    #footerLogoText{
+        text-align: center;
+    }
+
+    /* Sharing buttons */
+
+    .responsiveAlign {
+        text-align: center;
+        padding: 5px ;
+    }
+
+}
+
+/* On bigger screens */
+
+@media (min-width: 993px) {
+
+    /* Sharing buttons */
+
+    .responsiveAlign {
+        float: right;
+    }
+}
