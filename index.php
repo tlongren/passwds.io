@@ -143,7 +143,7 @@ a.prettySocial {
   </div>
         </div>
         <div class="col-xs-12 col-md-4 noPadding">
-          <p>Made by <a href="https://longrendev.io/" target="_blank">Longrendev.io</a></p>
+          <p>Made by <a href="https://www.longren.io/" target="_blank">Tyler</a></p>
         </div>
       </div>
 
