@@ -80,20 +80,18 @@ a.prettySocial {
                         <p>
                             <label for="length">Choose a Password Length</label><br />
               <select name="length" id="length">
-                <option value="" disabled selected style="display: none;"></option>
                 <?php
                 for ($i = 8; $i <= 30; $i++) { ?>
-                  <option value="<?=$i?>"><?=$i?></option>
+                  <option value="<?=$i?>" <?php if ($i==8) { ?> selected<?php } ?>><?=$i?></option>
                 <?php
                 }
                 ?>
               </select><br /><br />
               <label for="num">Choose the Number of Passwords to Generate</label><br />
               <select name="num" id="num">
-                <option value="" disabled selected style="display: none;"></option>
                 <?php
                 for ($i = 1; $i <= 100; $i++) { ?>
-                  <option value="<?=$i?>"><?=$i?></option>
+                  <option value="<?=$i?>" <?php if ($i==1) { ?> selected<?php } ?>><?=$i?></option>
                 <?php
                 }
                 ?>
