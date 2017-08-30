@@ -113,9 +113,6 @@ a.prettySocial {
         <p class="textStyle">
           This is provided as a free service to encourage usage of somewhat randomized passwords. <i>Many</i> of the passwords will contain pronounceable portions, making them even easier to remember.
         </p>
-
-        <p style="margin-top:20px"><img src="https://passwds.io/images/mist.jpg" /></p>
-        <p>Just a pretty nature scene.</p>
         
       </div>
 
