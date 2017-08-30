@@ -10,15 +10,14 @@ if (extension_loaded('newrelic')) {
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>passwds.io - The Pronounceable Password Generator</title>
 <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/jquery.prettySocial.min.js"></script>
 <script src="js/process.js" type="text/javascript"></script>
 <meta property="og:title" content="passwds.io - The Pronounceable Password Generator" />
 <meta property="og:type" content="website" />
-<meta property="og:image" content="https://passwds.io/images/mist.jpg" />
 <meta property="og:url" content="https://passwds.io" />
 <meta property="og:description" content="This is provided as a free service to encourage usage of somewhat randomized passwords. Many of the passwords will contain pronounceable portions, making them even easier to remember." />
 <meta property="og:site_name" content="passwds.io" />
